@@ -1,0 +1,108 @@
+@media screen and (max-width: 767px) {
+    
+    .welcome-screen {
+        display: flex;
+        text-align: center;
+        padding: 20px;
+        
+        
+      }
+      
+      #titulo{
+        font-size: 35px;
+        color: #ffbb00;                                             
+      }
+
+      #clicar{
+        display: none;
+      }
+     
+      
+      .home h1 {
+        font-family: 'Avocade Bold', sans-serif;
+        color: white;
+        font-size: 100%;
+        margin: 10px;
+      }
+      
+      img {
+        width: 50px;
+      }
+    
+
+      /* ------------------------------------------- */
+
+      .part-1 h1 {
+        font-size: 60px;
+        color: white;
+        z-index: 1; 
+      }
+      .part-1 h1.line {
+        font-size: 20px;
+       
+      }
+
+      @keyframes typewriter {
+        from {
+          width: 50%;
+        }
+        to {
+          width: 80%;
+        }
+      }
+
+      #x{
+        font-size: 20px;
+      }
+
+      .filho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        border-radius: 10px;
+        width: 100%;
+      }
+
+      .filho-1{
+        width: 100%;
+      }
+      .filho-2{
+        width: 100%;
+      }
+
+      .filho-3{
+        width: 100%;
+      }
+
+      .filho-4{
+        width: 100%;
+      }
+
+      .filho-5{
+        width: 100%;
+      }
+      .filho-6{
+        width: 100%;
+      }
+      .filho-7{
+        width: 100%;
+      }
+      .filho-8{
+        width: 100%;
+      }
+
+      .nami img {
+        width: 100%;
+      }
+
+      .part-1::before {
+        height: 100vh;
+        content: "";
+        background-color: #000000b6;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+    
+  }

@@ -1,0 +1,99 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+@import url('https://fonts.cdnfonts.com/css/avocade');
+
+
+
+
+
+
+
+.welcome-screen {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  
+  
+}
+
+#titulo{
+  font-size: 50px;
+  color: #ffbb00;
+  
+                                                
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home::before {
+  content: "";
+  background-image: url("https://i.pinimg.com/originals/7e/13/3d/7e133d68264d7dbc80b391cc7a9ed9e1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(0px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.home .welcome-screen {
+  z-index: 1;
+  text-align: center;
+  color: white;
+}
+
+.home h1,
+.home button {
+  filter: none;
+}
+
+
+
+.home h1 {
+  font-family: 'Avocade Bold', sans-serif;
+  color: white;
+  font-size: 150%;
+  margin: 10px;
+}
+
+img {
+  width: 100px;
+}
+
+
+
+
+.btn-container {
+  position: relative;
+  display: inline-block;
+}
+
+.btn {
+  animation: shake 0.4s ease infinite;
+}
+
+.btn:hover {
+  width: 100px; /* Defina a largura desejada para a imagem */
+  height: 100px; /* Defina a altura desejada para a imagem */
+  transition: transform 0.2s ease-in-out;
+  animation: none;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px) rotate(5deg); }
+  50% { transform: translateX(5px) rotate(-5deg); }
+  75% { transform: translateX(-5px) rotate(5deg); }
+  100% { transform: translateX(5px) rotate(-5deg); }
+}
+
+
